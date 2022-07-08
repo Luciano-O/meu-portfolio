@@ -2,6 +2,9 @@
   .infos {
     min-width: 42rem;
   }
+  .tecnologies {
+    justify-content: space-around;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -10,6 +13,8 @@
   }
 }
 
+  
+
 h2 {
   text-align: center;
   font-size: 2rem;
@@ -17,7 +22,7 @@ h2 {
 }
 
 p, span, h3, h2 {
-  font-family: Bradley Hand, cursive;
+  font-family: Bradley Hand;
 }
 
 p {
@@ -36,17 +41,32 @@ span {
 
 .container {
   display: flex;
-  width: 80%;
-  max-width: 80%;
   margin: 0 auto;
+  margin-bottom: 5rem;
   align-items: center;
   justify-content: center;
 }
 
-img {
+.myPhoto {
   width: 20rem;
   height: 20rem;
   border-radius: 100%;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.tecnologies {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2rem;
+  overflow: scroll;
+}
+
+card p {
+  text-align: center;
+}
+
+card img {
+  width: 6rem;
+  height: 6rem;
 }
 

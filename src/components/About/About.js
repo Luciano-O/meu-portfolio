@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import styles from './styles.module.css';
+import data from '../../data/data';
 import myPhoto from '../../images/Minha-foto.jpeg';
 
 function About() {
@@ -22,10 +23,21 @@ function About() {
             que podem sair coisas incríveis dessa fusão.
           </p>
         </Col>
-        <Col sm={4} className={styles.photo}>
-          <img src={myPhoto} alt="Minha foto" />
+        <Col sm={3} className={styles.photo}>
+          <img src={myPhoto} className={styles.myPhoto} alt="Minha foto" />
         </Col>
       </Row>
+      <div>
+        <h2>Tecnologias</h2>
+        <div className={styles.tecnologies}>
+          {data.map(({ image, name }) => (
+            <card>
+              <img src={image} alt="node" />
+              <p>{name}</p>
+            </card>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
