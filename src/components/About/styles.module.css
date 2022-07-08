@@ -1,0 +1,52 @@
+@media only screen and (min-width: 850px) {
+  .infos {
+    min-width: 42rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+p, span, h3, h2 {
+  font-family: Bradley Hand, cursive;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #495057;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+span {
+  font-size: 1.3rem;
+  color: #495057;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
