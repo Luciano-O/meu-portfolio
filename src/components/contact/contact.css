@@ -52,6 +52,10 @@ textarea {
   color: var(--color-white);
 }
 
+input::placeholder, textarea::placeholder {
+  color: var(--color-white);
+}
+
 /* ======media queries for tablets(medium devices) =========*/
 
 @media screen and (max-width: 1024px) {

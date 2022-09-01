@@ -5,10 +5,6 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <a href="" className="footer__logo">
-        LUCIANO
-      </a>
-
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>

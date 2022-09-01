@@ -11,7 +11,7 @@ import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
-    <>
+    <main>
       <Header />
       <Nav />
       <About />
@@ -19,7 +19,7 @@ export default function App() {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </main>
     // <div className="App">
     //   <h1>Hello CodeSandbox</h1>
     //   <h2>Start editing to see some magic happen!</h2>
