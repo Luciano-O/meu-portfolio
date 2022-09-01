@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG3 from "../../assets/portfolio3.png";
 
 const Portfolio = () => {
   return (
@@ -53,12 +53,12 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Portfolio</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn">
+            <a href="https://github.com/Luciano-O/meu-portfolio" className="btn">
               Github
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a href="https://portfolio-luciano.herokuapp.com/" className="btn btn-primary" target="_blank">
               Demo
             </a>
           </div>
