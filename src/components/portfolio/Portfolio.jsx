@@ -58,7 +58,7 @@ const Portfolio = () => {
             <a href="https://github.com/Luciano-O/meu-portfolio" className="btn">
               Github
             </a>
-            <a href="https://portfolio-luciano.herokuapp.com/" className="btn btn-primary" target="_blank">
+            <a href="https://luciano-olivieira-portfolio.vercel.app" className="btn btn-primary" target="_blank">
               Demo
             </a>
           </div>

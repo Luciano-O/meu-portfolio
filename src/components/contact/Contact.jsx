@@ -14,14 +14,14 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_yhmyh7q",
-        "template_wbpqpbr",
+        "gmailMessage",
+        "template_raa4aj8",
         form.current,
-        "Po8nwYiPRh31wRCkt"
+        "-k8dLxVZo7bOvSfqN"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
+          alert("Sucesso!!");
         },
         (error) => {
           console.log(error.text);
