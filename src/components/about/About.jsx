@@ -26,7 +26,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          Apaixonado por tecnologia, gamer e amante de Game of Thrones, Voce poderia usar todos esses adjetivos para me descrever, mas hoje oque mais combina comigo é Desenvolvedor obstinado, porque nesses ultimos meses em que me dediquei a estudar programação, eu percebi que é isso que eu realmente amo, e quando amo algo, aquilo se funde a mim, e experiencias passadas como meu ultimo emprego ou até mesmo quando tive meu próprio negócio, mostram que podem sair coisas incríveis dessa fusão.
+          Apaixonado por tecnologia, gamer e amante de Game of Thrones, Voce poderia usar todos esses adjetivos para me descrever, mas hoje oque mais combina comigo é Desenvolvedor obstinado, porque nesses ultimos meses em que me dediquei a estudar programação, eu percebi que é isso que eu realmente amo, e quando amo algo, aquilo se funde a mim, e experiencias passadas como meu primeiro emprego ou até mesmo quando decidi aceitar o desafio de ser líder técnico na MacFinder, mostram que podem sair coisas incríveis dessa fusão.
           </p>
           <a href="#contact" className="btn btn-primary">
             Vamos conversar!
