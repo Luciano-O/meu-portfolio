@@ -1,8 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.png";
+import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
+import IMG4 from "../../assets/portfolio4.jpg";
 
 const Portfolio = () => {
   return (
@@ -24,7 +25,7 @@ const Portfolio = () => {
             </div>
 
             <div>
-              <a href="https://luciano-api-investimentos.herokuapp.com/docs/" className="btn btn-primary" target="_blank">
+              <a href="https://api-invest.onrender.com/docs/#/" className="btn btn-primary" target="_blank">
                 Demo
               </a>
             </div>
@@ -43,7 +44,7 @@ const Portfolio = () => {
             <a href="https://github.com/Luciano-O/blog-back-end" className="btn">
               Back-end
             </a>
-            <a href="https://luciano-blog.herokuapp.com" className="btn btn-primary" target="_blank">
+            <a href="https://blog-46mkeyfco-luciano-o.vercel.app/" className="btn btn-primary" target="_blank">
               Demo
             </a>
           </div>
@@ -59,6 +60,21 @@ const Portfolio = () => {
               Github
             </a>
             <a href="https://luciano-olivieira-portfolio.vercel.app" className="btn btn-primary" target="_blank">
+              Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Portfolio</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Luciano-O/pokedex" className="btn">
+              Github
+            </a>
+            <a href="https://pokedex-psi-nine.vercel.app/" className="btn btn-primary" target="_blank">
               Demo
             </a>
           </div>
