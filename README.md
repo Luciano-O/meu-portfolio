@@ -19,8 +19,8 @@ Caso a instalação seja concluída com sucesso você deve conseguir utilizar o 
 
 ## Instalação
 
-    $ git clone https://github.com/ORG/PROJECT.git
-    $ cd PROJECT
+    $ git clone https://github.com/Luciano-O/meu-portfolio.git
+    $ cd meu-portfolio
     $ npm install
 
 ## Iniciar
@@ -33,22 +33,10 @@ Caso a instalação seja concluída com sucesso você deve conseguir utilizar o 
 
 ---
 
-## Languages & tools
+## Linguagens e ferramentas
 
-### HTML
+### ReactJS
 
-### JavaScript
-
-- [JSHint](http://www.jshint.com/docs/) is used to prevent JavaScript error.
-- [JSCS](https://npmjs.org/package/jscs) is used to check coding conventions.
-- [Browserify](http://browserify.org/) to handle allow us to write our client-side scripts with [es6 syntax](http://es6.github.io/) thanks to [es6ify](https://github.com/thlorenz/es6ify).
-- [React](http://facebook.github.io/react) is used for UI.
+### Javascript
 
 ### CSS
-
-- [cssnext]
-
-### Static server with Livereload
-
-The app embed for development a static connect server with livereload plugged.
-So each time you start the app, you get automatic refresh in the browser whenever you update a file.
